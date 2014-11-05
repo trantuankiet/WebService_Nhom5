@@ -1,0 +1,118 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Book Store </title>
+
+<meta name="keywords" content="Book Store " />
+<meta name="description" content="Book Store " />
+<link  rel="shortcut icon"  href="@Url.Content("~/Content/images/book-icon.png")"  type="image/x-icon"  />
+<link href="~/Content/css/templatemo_style.css" rel="stylesheet" type="text/css" />
+
+</head>
+ 
+<body>
+<!--  Free CSS Templates from www.templatemo.com -->
+<div id="templatemo_container">
+	<div id="templatemo_menu">
+    	<ul>
+            <li>@Html.ActionLink("Trang chủ","Index","Home")</li>
+            <li>@Html.ActionLink("Sản phẩm","Index","Product")</li> 
+            <li>@Html.ActionLink("Tìm kiếm nâng cao","SearchAdvanced","Product")</li>
+            
+            <li>@Html.ActionLink("Liên hệ","Contact","Home")</li> 
+               @if (!Request.IsAuthenticated)
+               {
+         
+            <li>@Html.ActionLink("Đăng ký", "Signup", "Account")</li> 
+               }
+            <li style="float:right; margin-top:-5px;">@using(Html.BeginForm("Search","Product",new {id ="keyword"},FormMethod.Post,null))
+                                    {
+                                        <input style=" color:Black; background:#DCDCDC; border-radius: 7px;" list="tudong" id="keyword" name="keyword" value="" /><button class="btn">Tìm</button>
+                                        }</li>
+ 
+            @{  Book_Web.Book_Services.Book_ServiceClient sv = new Book_Web.Book_Services.Book_ServiceClient();
+                List<Book_Web.Book_Services.BizSach> ListSach = sv.LayListSach();
+             <Datalist id="tudong">
+             @foreach(Book_Web.Book_Services.BizSach item in ListSach)
+             {
+                <option>@item.Tensach</option>
+             }
+            </Datalist>
+            }
+    	</ul>
+    </div> <!-- end of menu -->
+    
+    <div id="templatemo_header">
+    
+       @* <div id="templatemo_special_offers">
+        	<p>
+                <span>25%</span> cho khách hàng đầu tiên 
+        	</p>
+			@*<a href="#" style="margin-left: 50px;">Chi tiết...</a>
+        </div>
+        
+        
+        <div id="templatemo_new_books">
+        	<ul>
+                <li>Thở và thiền</li>
+                <li>Conan</li>
+                <li>Hiểu về trái tim</li>
+            </ul>
+            
+        </div>*@
+
+    </div> <!-- end of header -->
+    
+    <div id="templatemo_content">
+    	
+        <div id="templatemo_content_left">
+        	<div class="templatemo_content_left_section">
+            @Html.Partial("Navigation")
+            </div>
+            <div class="templatemo_content_left_section">
+            @Html.Partial("_ViewCart")
+            </div>
+			<div class="templatemo_content_left_section">
+            @if (Request.IsAuthenticated)
+            {
+                 <h1>Xin chào @User.Identity.Name</h1>
+                <ul>
+                <li>@Html.ActionLink("Đăng xuất", "Logout", "Account")</li>
+                <li>@Html.ActionLink("Thông tin cá nhân","EditAccount","Account")</li>
+                <li>@Html.ActionLink("Thay đổi mật khẩu","ChangePass","Account")</li>
+                <li>@Html.ActionLink("Lịch sử đơn hàng","HistoryCart","Cart")</li>
+            	</ul>
+                
+            }
+            else
+            {
+            @Html.Partial("_LogOnPartial")
+            }
+            </div>
+            <div class="templatemo_content_left_section">
+                 @Html.Partial("_ADS")
+            </div>
+	
+            
+            
+        </div> <!-- end of content left -->
+        
+        <div id="templatemo_content_right">
+        	@RenderBody()
+        </div> <!-- end of content right -->
+    
+    	<div class="cleaner_with_height">&nbsp;</div>
+    </div> <!-- end of content -->
+    
+    <div id="templatemo_footer">
+    
+	       <a href="subpage.html">Trang chủ</a> | <a href="subpage.html">Sản Phẩm</a> | <a href="subpage.html">Liên Hệ</a><br />
+        Copyright © 2012 <a href="#"><strong> BookStore</strong></a> | Người thiết kế <a href="http://www.templatemo.com" target="_parent" title="free css templates">Grass</a>	</div> 
+    <!-- end of footer -->
+<!--  Free CSS Template www.templatemo.com -->
+</div> <!-- end of container -->
+</body>
+   
+</html>

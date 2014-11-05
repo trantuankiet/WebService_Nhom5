@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "_ViewCart";
+}
+
+<h1>Giỏ hàng</h1>
+
+                <ul>
+              
+                @if (Session["GioHang"] == null)
+                {
+                    <li ><a>Giỏ Hàng Chưa Có Sản Phẩm</a></li>
+                }
+                else
+                {
+                   Book_Web.Book_Services.Book_ServiceClient  sv = new Book_Web.Book_Services.Book_ServiceClient();
+                   Book_Web.Book_Services.BizPhieuDatHang PDH = (Book_Web.Book_Services.BizPhieuDatHang)Session["GioHang"];
+                <li>Số sản phẩm : @PDH.ChiTietDonHangs.Count</li>
+                <li>Tổng số tiền : @String.Format("{0:0,0 VNĐ}", sv.TinhTongTienPhieuDatHang(PDH))</li>
+                <li>@Html.ActionLink("Xem giỏ hàng","ViewCart","Cart")</li>
+                }
+                </ul>

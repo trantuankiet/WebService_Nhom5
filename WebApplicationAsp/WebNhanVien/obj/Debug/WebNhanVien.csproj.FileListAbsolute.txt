@@ -1,0 +1,14 @@
+D:\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.csprojResolveAssemblyReference.cache
+D:\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.dll.licenses
+D:\DoAnWS\WebApplicationAsp\WebNhanVien\bin\WebNhanVien.dll
+D:\DoAnWS\WebApplicationAsp\WebNhanVien\bin\WebNhanVien.pdb
+D:\DoAnWS\WebApplicationAsp\WebNhanVien\bin\AjaxControlToolkit.dll
+D:\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.dll
+D:\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.pdb
+E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\bin\WebNhanVien.dll
+E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\bin\WebNhanVien.pdb
+E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\bin\AjaxControlToolkit.dll
+E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.csprojResolveAssemblyReference.cache
+E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.dll.licenses
+E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.dll
+E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.pdb

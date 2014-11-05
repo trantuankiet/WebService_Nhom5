@@ -1,0 +1,74 @@
+﻿@model IEnumerable<Book_Web.Book_Services.BizCTPhieuDatHang>
+
+@{
+    ViewBag.Title = "ViewCart";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>ViewCart</h2>
+
+<p>
+    @Html.ActionLink("Thanh Toán", "Checkout","Cart")
+</p>
+<table width="650px" cellspacing="0" cellpadding="5">
+    <tr bgcolor="#7E5D27">
+                        	<th width="70" align="left">Hình </th> 
+                        	<th width="200" align="left">Tên sách </th> 
+                       	  	<th width="70" align="center">Số lượng </th> 
+                        	<th width="100" align="right">Đơn giá </th> 
+                        	<th width="150" align="right">Thành tiền </th> 
+                        	<th width="90"> </th>
+                            
+                      </tr> 
+@foreach (var item in Model) {
+    
+using (Html.BeginForm("EditCart", "Cart", new { masp = "masp", soluong = "soluong" } ,FormMethod.Post,null))
+{ 
+        <tr>
+        <td>
+            <img style=" width:50px; height:60px;" id="Hinh" src="http://localhost:3697/Hinhanh/@item.Sach.HinhAnh" />
+            <input id="masp" name="masp" type="hidden" value="@item.Sach.MaSach" />
+        </td>
+        <td align="left">
+            @Html.DisplayFor(modelItem => item.Sach.Tensach)
+        </td>
+        <td align="center"> 
+            <input id="soluong" type="number" min="1" max="5" style=" width:30px; text-align:center;" name="soluong" type="text" value="@item.SoLuong" />
+        </td>
+        <td align="right">
+            @string.Format("{0:0,0 VNĐ}", (item.GiaTien / item.SoLuong))
+        </td>
+        <td align="right">
+            @string.Format("{0:0,0 VNĐ}", item.GiaTien)
+        </td>y
+        <td>
+         <div style="float:left; margin-left:10px;">   <button id="edit"  style=" background-color:transparent; border-color:transparent; height:20px; font-size:11px;  font-weight:bold; color:#E6E154; width:35px; text-align:center;" type="submit" value="">Sửa</button></div>
+         <div style="float:left; margin-left:10px; margin-top:2px;">   @Html.ActionLink("Xóa", "DeleteCart", "Cart", new { masp = item.Sach.MaSach }, null)</div>
+        </td>
+        
+    </tr>
+}
+}
+</table>
+<div style="float:right; width: 215px; margin-top: 20px;">
+                    
+                        <div class="checkout">@Html.ActionLink("Thanh toán", "Checkout", "Cart")</div>
+                        <div class="cleaner h20"></div>
+                        <div class="continueshopping">@Html.ActionLink("Về trang chủ","Index","Home")</div>
+                    	
+                    </div>
+@if (ViewBag.Co == 1)
+{
+    <script>alert("Không thể mua 1 sản phẩm có số lượng nhiều hơn 5");</script>
+    Session["thongbao"] = null;
+}
+else if (ViewBag.Co == 0)
+{
+    <script>alert("Số lượng tồn kho không đủ");</script>
+    Session["thongbao"] = null;
+}
+
+else
+{
+    Session["thongbao"] = null;
+}

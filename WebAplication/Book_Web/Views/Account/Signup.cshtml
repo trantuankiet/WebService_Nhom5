@@ -1,0 +1,112 @@
+﻿@model Book_Web.Models.SignupModel
+
+
+@{
+    ViewBag.Title = "Signup";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Đăng ký</h2>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+ <link rel="stylesheet" href="~/Content/jquery-ui.css" />
+  <script src="~/Scripts/jquery-1.9.1.js"></script>
+  <script src="~/Scripts/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#NgaySinh").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            dateFormat:"mm-dd-yy"
+        });
+    });
+  </script>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.TenDN)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.TenDN)
+            @Html.ValidationMessageFor(model => model.TenDN)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MatKhau)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MatKhau)
+            @Html.ValidationMessageFor(model => model.MatKhau)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NhapLaiMatKhau)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.NhapLaiMatKhau)
+            @Html.ValidationMessageFor(model => model.NhapLaiMatKhau)
+        </div>
+    
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HoTen)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.HoTen)
+            @Html.ValidationMessageFor(model => model.HoTen)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.NgaySinh)   
+       </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.NgaySinh)
+            @Html.ValidationMessageFor(model => model.NgaySinh)
+        </div>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DiaChi)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DiaChi)
+            @Html.ValidationMessageFor(model => model.DiaChi)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Sdt)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Sdt)
+            @Html.ValidationMessageFor(model => model.Sdt)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Email)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+        
+        <br />
+        <p>
+            <input class="btn" type="submit" value="Đăng Ký" />
+        </p>
+
+}
+@if (ViewBag.Co == 2)
+{
+    <script>alert("Trùng tên đăng nhập");</script>
+    ViewBag.Co = null;
+    
+}
+else if (ViewBag.Co == 1)
+{
+    <script>alert("Trùng Email");</script>
+    ViewBag.Co = null;
+  
+}
+else
+{
+}
+

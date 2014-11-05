@@ -1,0 +1,24 @@
+D:\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll
+D:\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.pdb
+D:\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.dll
+D:\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.pdb
+D:\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.csprojResolveAssemblyReference.cache
+D:\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll.config
+D:\DoAnWS\DoAnWebService\Book_Library\bin\Debug\EntityFramework.dll
+D:\DoAnWS\DoAnWebService\Book_Library\bin\Debug\EntityFramework.xml
+C:\Users\Co\Desktop\DoAnWS1\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll.config
+C:\Users\Co\Desktop\DoAnWS1\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll
+C:\Users\Co\Desktop\DoAnWS1\DoAnWebService\Book_Library\bin\Debug\Book_Library.pdb
+C:\Users\Co\Desktop\DoAnWS1\DoAnWebService\Book_Library\bin\Debug\EntityFramework.dll
+C:\Users\Co\Desktop\DoAnWS1\DoAnWebService\Book_Library\bin\Debug\EntityFramework.xml
+C:\Users\Co\Desktop\DoAnWS1\DoAnWebService\Book_Library\obj\Debug\Book_Library.csprojResolveAssemblyReference.cache
+C:\Users\Co\Desktop\DoAnWS1\DoAnWebService\Book_Library\obj\Debug\Book_Library.dll
+C:\Users\Co\Desktop\DoAnWS1\DoAnWebService\Book_Library\obj\Debug\Book_Library.pdb
+E:\du an\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll.config
+E:\du an\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll
+E:\du an\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.pdb
+E:\du an\DoAnWS\DoAnWebService\Book_Library\bin\Debug\EntityFramework.dll
+E:\du an\DoAnWS\DoAnWebService\Book_Library\bin\Debug\EntityFramework.xml
+E:\du an\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.csprojResolveAssemblyReference.cache
+E:\du an\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.dll
+E:\du an\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.pdb

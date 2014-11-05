@@ -1,0 +1,94 @@
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.pdb
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.Properties.Resources.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csproj.GenerateResource.Cache
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe.licenses
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.pdb
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmHienThi.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmKhuyenMai.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmLapPhieuVanChuyen.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmMain.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNguoiDung.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNhanVien.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmQuyen.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmSach.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTonKho.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe.config
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTonKho.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTongSoLuongBanRa.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csprojResolveAssemblyReference.cache
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTheoSoLuong.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeSoLuongBanRa.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTheoSoLuong.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportDoanhThu.resources
+C:\Users\Co\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe.config
+C:\Users\Co\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe
+C:\Users\Co\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.pdb
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe.config
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.pdb
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csprojResolveAssemblyReference.cache
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTheoSoLuong.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeSoLuongBanRa.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDanhMuc.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDuyetDonVanChuyen.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmHienThi.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmKhuyenMai.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmLapPhieuVanChuyen.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmMain.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNguoiDung.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNhanVien.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNhapKho.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmQuanLyDonHang.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmQuyen.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmSach.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongkeDoanhThu.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTonKho.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.Properties.Resources.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportDoanhThu.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTheoSoLuong.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTongSoLuongBanRa.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTonKho.resources
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csproj.GenerateResource.Cache
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe.licenses
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe
+C:\Users\Co\Desktop\DoAnWS1\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.pdb
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmTheLoai.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmPhieuNhapKho.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongkeDoanhThuTungSanPham.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDangNhap.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmLapPhieuDatHang.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDuyetPhieuVanChuyen.resources
+D:\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDuyetPhieuDatHang.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe.config
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.pdb
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.pdb
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csprojResolveAssemblyReference.cache
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDangNhap.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmLapPhieuDatHang.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmTheLoai.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTheoSoLuong.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeSoLuongBanRa.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDuyetPhieuVanChuyen.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmHienThi.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmKhuyenMai.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmLapPhieuVanChuyen.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmMain.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNguoiDung.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNhanVien.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmPhieuNhapKho.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDuyetPhieuDatHang.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmQuyen.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmSach.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongkeDoanhThuTungSanPham.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTonKho.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.Properties.Resources.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportDoanhThu.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTheoSoLuong.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTongSoLuongBanRa.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTonKho.resources
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csproj.GenerateResource.Cache
+E:\du an\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe.licenses

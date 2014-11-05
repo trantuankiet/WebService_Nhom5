@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Book_Web.Book_Services.BizSach>
+
+@{
+    ViewBag.Title = "ResultAdvanced";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script>
+    $("#trangchu").attr("class", "current");
+
+</script>
+<h2>Kết quả tìm kiếm</h2>
+@if (Model.Count() == 0 )
+{
+    <h2>Không có sản phẩm bạn cần tìm</h2>
+}
+else
+{
+    if ((string)ViewBag.Pagelink != "")
+    {
+             <div class="paging">
+                 @Html.Raw((String)ViewBag.Pagelink)
+             </div>
+              <div class="cleaner">&nbsp;</div>
+    }
+<div class="row">
+ 
+
+           
+@foreach (var item in Model)
+{
+    	<div class="templatemo_product_box">
+            	<h1>Tác giả: <span>@item.TenTacGia</span></h1>
+   	      <img style="width:100px; height:150px;" src='http://localhost:3697/Hinhanh/@item.HinhAnh' alt="image" />
+                <div class="product_info">
+                @if (item.SoLuong == 0)
+                {
+                    <p>Hết hàng</p>
+                }
+                else
+                {
+                    <p>Số lượng còn: @item.SoLuong</p>
+                }
+                	<p>@item.Tensach</p>
+                        @if (item.KhuyenMai.GiaTriGiam != 0)
+                        {
+                        <h2 style="text-decoration:line-through">Giá cũ : @string.Format("{0:0,0 VNĐ}", item.Gia)</h2>
+                        <h2>Giá mới : @string.Format("{0:0,0 VNĐ}", item.Gia - Convert.ToDecimal(item.Gia * Convert.ToDecimal(item.KhuyenMai.GiaTriGiam / Convert.ToDecimal(100))))</h2>
+                        }
+                        else
+                        {
+                        <h2>Giá : @string.Format("{0:0,0 VNĐ}", item.Gia)</h2>
+                  
+                        }      <div class="buy_now_button"> @Html.ActionLink("Chọn mua", "AddCart", "Cart", new { id = item.MaSach }, null)</div>
+                    <div class="detail_button">@Html.ActionLink("Chi tiết", "Detail", "Product", new { id = item.MaSach }, null)</div>
+                </div>
+                <div class="cleaner">&nbsp;</div>
+            </div>
+            
+}
+</div>
+}
+<div class="cleaner">&nbsp;</div>
+<div class="paging">
+     @if ((string)ViewBag.Pagelink != "")
+     {
+        @Html.Raw((String)ViewBag.Pagelink)
+    }
+</div>
+

@@ -1,0 +1,23 @@
+﻿
+
+@using (Html.BeginForm("Login", "Account", new { TenDN = "TenDN", Pass = "Pass" }, FormMethod.Post, null))
+{
+  <h1>Đăng nhập</h1>
+    <div style=" color:#969547;">
+                <ul>
+               Tên đăng nhập: <li><input style=" width:150px; color:Black; border-radius:7px; background:#DCDCDC;" id="TenDN" name="TenDN" value="" /></li>
+               Mật khẩu: <li><input style="width:150px; color:Black; border-radius:7px; background:#DCDCDC;" id="Pass" name="Pass" type="password" value=""/></li>
+               <li>@Html.ActionLink("Quên Mật Khẩu","ForgotPass","Account")</li>
+            	</ul>
+                <table style="margin-left:7px;">
+                    <tr>
+                        <td>
+                            <button class="btn" type="submit"  id="signin" value="">Đăng nhập</button>
+                        </td>
+                        <td >
+                            <button class="btn" type="reset" style="width:70px;" id="reset" value="">Nhập lại</button>
+                        </td>
+                    </tr>
+                    </table>
+                    </div>
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="7708a2ae-e310-4571-b02b-e9c75b4a1f8c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:3697/Book_Service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Book_Service.xsd" MetadataType="Schema" ID="d8bcb371-308c-4778-996b-32a83951ff1e" SourceId="1" SourceUrl="http://localhost:3697/Book_Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Book_Service.wsdl" MetadataType="Wsdl" ID="00679527-5c01-42a3-8b76-3980dc70ba6a" SourceId="1" SourceUrl="http://localhost:3697/Book_Service.svc?wsdl" />
+    <MetadataFile FileName="Book_Service1.xsd" MetadataType="Schema" ID="9a73b1b6-9e13-4e5c-9ec8-6f791d8a6b38" SourceId="1" SourceUrl="http://localhost:3697/Book_Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Book_Service2.xsd" MetadataType="Schema" ID="2ad2a941-6fd3-4739-9e90-8ce9283dd351" SourceId="1" SourceUrl="http://localhost:3697/Book_Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Book_Service.disco" MetadataType="Disco" ID="cd439a75-5ecf-43d0-80ea-e22fce9a3bbe" SourceId="1" SourceUrl="http://localhost:3697/Book_Service.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Book_Web.Book_Services.BizPhieuDatHang>
+
+@{
+    ViewBag.Title = "HistoryCart";
+}
+
+<h2>Lịch Sử Đặt Hàng Của Bạn</h2>
+@if (Model.Count() == 0)
+{
+    <h4><a>Khách hàng chưa từng mua sản phẩm nào</a></h4><h2>@Html.ActionLink("Trở về trang sản phẩm","Index","Product")</h2>
+}
+else
+{
+<p>
+    @Html.ActionLink("Quay Vê Trang Chủ", "Index", "Home")
+</p>
+<table width="650px" cellspacing="0" cellpadding="5">
+    <tr bgcolor="#7E5D27">
+                            <th width="100" align="left">Mã đơn hàng </th> 
+                       	    <th width="100" align="left">Họ tên người nhận </th> 
+                       	  	<th width="70" align="center">Ngày đặt hàng </th> 
+                        	<th width="100" align="right">Tình trạng </th>
+                        	<th width="90"> </th>
+                            
+                      </tr>
+    
+@foreach (var item in Model)
+{
+    
+    <tr>
+        <td align="center">
+            @item.MaPDH
+        </td>
+        <td align="center">
+            @item.HoTenNN
+        </td>
+        <td align="right">
+            @item.NgayDH
+        </td>
+        <td align="right">
+        @if (item.TrangThai == 0)
+        {
+            <span>Đang đợi duyệt</span>
+        }
+        else if(item.TrangThai == 1)
+        {
+            <span>Đã duyệt</span>
+        }
+        else if(item.TrangThai == 2)
+        {
+            <span>Đang giao hàng</span>
+        }
+        else if(item.TrangThai == 3)
+        {
+            <span>Đã giao hàng</span>
+        }
+        else 
+        {
+            <span>Đã hủy</span>
+        }
+        </td>
+        <td>
+           @Html.ActionLink("Chi tiết", "HistoryDetail", new { MaPDH = item.MaPDH })
+        </td>
+    </tr>
+}
+</table>
+}

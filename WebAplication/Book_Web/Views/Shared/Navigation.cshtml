@@ -1,0 +1,14 @@
+﻿@using Book_Web.Book_Services;
+
+@{ Book_ServiceClient sv = new Book_ServiceClient();
+    List<BizTheLoai> List = sv.ListTheLoai();
+}
+	<h1>Danh mục sách</h1>
+                <ul>
+                 @foreach (var item in List)
+                 {
+                    <li> @Html.ActionLink(item.TenDM, "Category", "Product", new { id = item.MaTL },"")</li>
+                 }
+                    
+            	</ul>
+            

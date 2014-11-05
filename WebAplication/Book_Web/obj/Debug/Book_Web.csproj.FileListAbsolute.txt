@@ -1,0 +1,208 @@
+D:\DoAnWS\DoAnWebService\Book_Web\bin\Book_Web.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\Book_Web.pdb
+D:\DoAnWS\DoAnWebService\Book_Web\bin\Antlr3.Runtime.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.AspNet.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.Core.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.OAuth.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.OpenId.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\EntityFramework.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\Microsoft.Web.Infrastructure.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\Newtonsoft.Json.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Net.Http.Formatting.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Helpers.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Http.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Http.WebHost.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Mvc.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Optimization.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Razor.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.WebPages.Deployment.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.WebPages.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.WebPages.Razor.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\WebGrease.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\WebMatrix.Data.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\WebMatrix.WebData.dll
+D:\DoAnWS\DoAnWebService\Book_Web\bin\EntityFramework.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\Newtonsoft.Json.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Net.Http.Formatting.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Helpers.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Http.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Http.WebHost.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Mvc.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.Razor.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.WebPages.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.WebPages.Deployment.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\System.Web.WebPages.Razor.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\WebMatrix.Data.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\WebMatrix.WebData.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.AspNet.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.Core.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.OAuth.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.OpenId.xml
+D:\DoAnWS\DoAnWebService\Book_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\DoAnWS\DoAnWebService\Book_Web\obj\Debug\Book_Web.csprojResolveAssemblyReference.cache
+D:\DoAnWS\DoAnWebService\Book_Web\obj\Debug\Book_Web.dll
+D:\DoAnWS\DoAnWebService\Book_Web\obj\Debug\Book_Web.pdb
+D:\DoAnWS\WebAplication\Book_Web\bin\Book_Web.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\Book_Web.pdb
+D:\DoAnWS\WebAplication\Book_Web\bin\Antlr3.Runtime.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.AspNet.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.Core.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\EntityFramework.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\Microsoft.Web.Infrastructure.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\Newtonsoft.Json.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.Formatting.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.WebRequest.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Helpers.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.WebHost.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Mvc.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Optimization.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Razor.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Deployment.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Razor.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\WebGrease.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.Data.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.WebData.dll
+D:\DoAnWS\WebAplication\Book_Web\bin\EntityFramework.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\Newtonsoft.Json.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.Formatting.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.WebRequest.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Helpers.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.WebHost.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Mvc.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.Razor.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Deployment.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Razor.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.Data.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.WebData.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.AspNet.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.Core.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.xml
+D:\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\DoAnWS\WebAplication\Book_Web\obj\Debug\Book_Web.dll
+D:\DoAnWS\WebAplication\Book_Web\obj\Debug\Book_Web.pdb
+D:\DoAnWS\WebAplication\Book_Web\obj\Debug\Book_Web.csprojResolveAssemblyReference.cache
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\Book_Web.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\Book_Web.pdb
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\Antlr3.Runtime.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.AspNet.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.Core.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\EntityFramework.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\Microsoft.Web.Infrastructure.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\Newtonsoft.Json.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.Formatting.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.WebRequest.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Helpers.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.WebHost.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Mvc.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Optimization.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Razor.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Deployment.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Razor.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\WebGrease.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.Data.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.WebData.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\EntityFramework.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\Newtonsoft.Json.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.Formatting.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.WebRequest.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Helpers.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.WebHost.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Mvc.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.Razor.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Deployment.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Razor.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.Data.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.WebData.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.AspNet.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.Core.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\du an\DoAnWS\WebAplication\Book_Web\obj\Debug\Book_Web.csprojResolveAssemblyReference.cache
+E:\du an\DoAnWS\WebAplication\Book_Web\obj\Debug\Book_Web.dll
+E:\du an\DoAnWS\WebAplication\Book_Web\obj\Debug\Book_Web.pdb
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\Book_Web.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\Book_Web.pdb
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\Antlr3.Runtime.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.AspNet.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.Core.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\EntityFramework.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\Microsoft.Web.Infrastructure.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\Newtonsoft.Json.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.Formatting.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.WebRequest.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Helpers.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.WebHost.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Mvc.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Optimization.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Razor.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Deployment.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Razor.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\WebGrease.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.Data.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.WebData.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\EntityFramework.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\Newtonsoft.Json.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.Formatting.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Net.Http.WebRequest.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Helpers.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Http.WebHost.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Mvc.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.Razor.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Deployment.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\System.Web.WebPages.Razor.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.Data.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\WebMatrix.WebData.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.AspNet.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.Core.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OAuth.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\obj\Debug\Book_Web.csprojResolveAssemblyReference.cache
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\obj\Debug\Book_Web.dll
+D:\Learning\Saigon University\Dich vu web & Ung dung\DoAnWS\WebAplication\Book_Web\obj\Debug\Book_Web.pdb

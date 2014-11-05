@@ -1,0 +1,60 @@
+﻿@model Book_Web.Book_Services.BizSach
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("ViewCart", "Cart", FormMethod.Post, new { Masp = "Masp", soluong = "soluong" }))
+{
+<h2>Chi Tiết Sản Phẩm</h2>
+
+<div class="row">
+					<div class="span4 pull-center">
+						<div class="opacity-fade">
+							<a href="#">
+								<img  style="width:150px; height:200px;" class="img-rounded" src='http://localhost:3697/Hinhanh/@Model.HinhAnh' alt="three" />
+							</a>
+						</div><!--/span 4-->
+					</div>
+                    <input type="hidden" name="Masp" value="@Model.MaSach" />
+					<div class="span8">
+                    @if (Model.SoLuong == 0)
+                {
+                    <p>Hết hàng</p>
+                }
+                else
+                {
+                    <p>Số lượng còn: @Model.SoLuong</p>
+                }
+						<h4>@Model.Tensach</h4>
+						<hr />
+		            @if (Model.KhuyenMai.GiaTriGiam != 0)
+                    {
+                        <h3 style="text-decoration:line-through">Giá cũ : @string.Format("{0:0,0 VNĐ}", Model.Gia )</h3>
+                        <h3>Giá mới : @string.Format("{0:0,0 VNĐ}", Model.Gia - Convert.ToDecimal(Model.Gia * Convert.ToDecimal(Model.KhuyenMai.GiaTriGiam / Convert.ToDecimal(100))))</h3>
+                    }
+                    else
+                    {
+                        <h4>Giá : @string.Format("{0:0,0 VNĐ}", Model.Gia)</h4>
+                  
+                    }
+							<ul class="check">
+								<li>Tác giả: @Model.TenTacGia </li>
+								<li>Thể loại: @Model.TheLoai.TenDM</li>
+								<li>Nhà xuất bản: @Model.NhaXuatBan</li>
+								<li>Năm xuất bản: @Model.NamXuatBan</li>
+								<li>Số trang: @Model.SoTrang</li>
+								<li>Hình thức bìa: @Model.LoaiBia</li>
+							</ul>
+						<hr />
+						<input id="soluong" type="text" name="soluong" class="positive-integer" value="1" placeholder="Số lượng">
+						<button type="submit" >Mua</button>
+						<hr />
+						
+				<p class="legend">Mô tả nội dung</p>
+				
+				<p>@Model.NoiDung</p>
+					</div><!--/span 3-->
+				</div><!--/row-->
+}

@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:3697/Book_Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Book_Library.BLL" />
+  <xs:element name="ChuyenDoiPhieuDatHang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PVC" nillable="true" type="q1:BizPhieuVanChuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChuyenDoiPhieuDatHangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ChuyenDoiPhieuDatHangResult" nillable="true" type="q2:ArrayOfBizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChuyenDoiPhieuVanChuyen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PVC" nillable="true" type="q3:BizPhieuVanChuyen" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="List" nillable="true" type="q4:ArrayOfBizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ChuyenDoiPhieuVanChuyenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ChuyenDoiPhieuVanChuyenResult" nillable="true" type="q5:BizPhieuVanChuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TongTienPhieuVanChuyen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PVC" nillable="true" type="q6:BizPhieuVanChuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TongTienPhieuVanChuyenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TongTienPhieuVanChuyenResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTonKho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="sach" nillable="true" type="q7:BizSach" />
+        <xs:element minOccurs="0" name="NgayThongKe" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTonKhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ThongKeTonKhoResult" nillable="true" type="q8:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeSoLuongBanRa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="theloai" nillable="true" type="q9:BizTheLoai" />
+        <xs:element minOccurs="0" name="NgayBD" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="NgayKT" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeSoLuongBanRaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ThongKeSoLuongBanRaResult" nillable="true" type="q10:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTheoSoLuong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SoLuong" type="xs:int" />
+        <xs:element minOccurs="0" name="kieusosanh" type="xs:boolean" />
+        <xs:element minOccurs="0" name="NgayBD" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="NgayKT" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTheoSoLuongResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ThongKeTheoSoLuongResult" nillable="true" type="q11:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeDoanhThuTungSanPham">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="NgayBD" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="NgayKT" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeDoanhThuTungSanPhamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ThongKeDoanhThuTungSanPhamResult" nillable="true" type="q12:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTienVanChuyen">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="NgayBD" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="NgayKT" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTienVanChuyenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ThongKeTienVanChuyenResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTongDoanhThu">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="NgayBD" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="NgayKT" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTongDoanhThuResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ThongKeTongDoanhThuResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTongDoanhThuSanPham">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="NgayBD" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="NgayKT" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThongKeTongDoanhThuSanPhamResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ThongKeTongDoanhThuSanPhamResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Layfilepath">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayfilepathResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LayfilepathResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Matkhaungaunhien">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MatkhaungaunhienResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MatkhaungaunhienResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Mahoa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Chuoimahoa" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MahoaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MahoaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Giama">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Chuoigaima" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GiamaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GiamaResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_DangKyND">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q13:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_DangKyNDResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_DangKyNV">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q14:BizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_DangKyNVResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_TBKhuyenMai">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="Listnd" nillable="true" type="q15:ArrayOfBizNguoiDung" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="km" nillable="true" type="q16:BizKhuyenMai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_TBKhuyenMaiResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_CapLaiMatKhau">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q17:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_CapLaiMatKhauResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_ThanhToan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="pdh" nillable="true" type="q18:BizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMail_ThanhToanResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMai_BaoXoaTK">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q19:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GuiMai_BaoXoaTKResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListTheoDM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="tl" nillable="true" type="q20:BizTheLoai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListTheoDMResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListTheoDMResult" nillable="true" type="q21:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayDSMoiNhat">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayDSMoiNhatResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayDSMoiNhatResult" nillable="true" type="q22:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LaySPByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="s" nillable="true" type="q23:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LaySPByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LaySPByIDResult" nillable="true" type="q24:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListKeyWord">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="keyword" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListKeyWordResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListKeyWordResult" nillable="true" type="q25:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListTimKiemNangCao">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="tensach" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="theloai" type="xs:int" />
+        <xs:element minOccurs="0" name="giatu" type="xs:decimal" />
+        <xs:element minOccurs="0" name="giaden" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListTimKiemNangCaoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListTimKiemNangCaoResult" nillable="true" type="q26:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemGioHang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PDH" nillable="true" type="q27:BizPhieuDatHang" />
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="sach" nillable="true" type="q28:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemGioHangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ThemGioHangResult" type="xs:int" />
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PDH" nillable="true" type="q29:BizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XoaGioHang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q30="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PDH" nillable="true" type="q30:BizPhieuDatHang" />
+        <xs:element xmlns:q31="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="sach" nillable="true" type="q31:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XoaGioHangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q32="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PDH" nillable="true" type="q32:BizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatGioHang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q33="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PDH" nillable="true" type="q33:BizPhieuDatHang" />
+        <xs:element xmlns:q34="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="sach" nillable="true" type="q34:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatGioHangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q35="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PDH" nillable="true" type="q35:BizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KiemTraTonKho">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q36="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="sach" nillable="true" type="q36:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KiemTraTonKhoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KiemTraTonKhoResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="phantrangsach">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="start" type="xs:int" />
+        <xs:element minOccurs="0" name="offset" type="xs:int" />
+        <xs:element xmlns:q37="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ListSach" nillable="true" type="q37:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="phantrangsachResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q38="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="phantrangsachResult" nillable="true" type="q38:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListSach">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListSachResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q39="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListSachResult" nillable="true" type="q39:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListSachDD">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListSachDDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q40="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListSachDDResult" nillable="true" type="q40:ArrayOfBizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemSach">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q41="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="sach" nillable="true" type="q41:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemSachResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SuaSach">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q42="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="sach" nillable="true" type="q42:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SuaSachResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XoaSach">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q43="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="sach" nillable="true" type="q43:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="XoaSachResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KichHoat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q44="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="sach" nillable="true" type="q44:BizSach" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KichHoatResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatKhuyenMai">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatKhuyenMaiResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListTheLoai">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListTheLoaiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q45="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ListTheLoaiResult" nillable="true" type="q45:ArrayOfBizTheLoai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListTheLoaiDD">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListTheLoaiDDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q46="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ListTheLoaiDDResult" nillable="true" type="q46:ArrayOfBizTheLoai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteTL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q47="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="q" nillable="true" type="q47:BizTheLoai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteTLResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertTL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q48="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="q" nillable="true" type="q48:BizTheLoai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertTLResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditTL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q49="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="q" nillable="true" type="q49:BizTheLoai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditTLResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KichhoatTL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q50="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="q" nillable="true" type="q50:BizTheLoai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KichhoatTLResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListKhuyenMai">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListKhuyenMaiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q51="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ListKhuyenMaiResult" nillable="true" type="q51:ArrayOfBizKhuyenMai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteKM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q52="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="km" nillable="true" type="q52:BizKhuyenMai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteKMResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertKM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q53="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="km" nillable="true" type="q53:BizKhuyenMai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertKMResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertKMResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditKM">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q54="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="km" nillable="true" type="q54:BizKhuyenMai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditKMResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="EditKMResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayKhuyenMai">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayKhuyenMaiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q55="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayKhuyenMaiResult" nillable="true" type="q55:BizKhuyenMai" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinNhanVien">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MaNV" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinNhanVienResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q56="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayThongTinNhanVienResult" nillable="true" type="q56:BizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KiemTraMatKhau">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MaNV" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MatKhau" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KiemTraMatKhauResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KiemTraMatKhauResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListNhanVien">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListNhanVienResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q57="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ListNhanVienResult" nillable="true" type="q57:ArrayOfBizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListNhanVienVC">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListNhanVienVCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q58="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ListNhanVienVCResult" nillable="true" type="q58:ArrayOfBizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteNV">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q59="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nv" nillable="true" type="q59:BizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteNVResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertNV">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q60="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nv" nillable="true" type="q60:BizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertNVResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditTTNVKMK">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q61="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nv" nillable="true" type="q61:BizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditTTNVKMKResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditTTNVMK">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q62="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nv" nillable="true" type="q62:BizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditTTNVMKResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KTraDNNV">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q63="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nv" nillable="true" type="q63:BizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KTraDNNVResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q64="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="KTraDNNVResult" nillable="true" type="q64:BizNhanVien" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListQuyen">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListQuyenResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q65="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ListQuyenResult" nillable="true" type="q65:ArrayOfBizQuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteQ">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q66="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="q" nillable="true" type="q66:BizQuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteQResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertQ">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q67="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="q" nillable="true" type="q67:BizQuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertQResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditQ">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q68="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="q" nillable="true" type="q68:BizQuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditQResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SoPDHHoanTat">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q69="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q69:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SoPDHHoanTatResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SoPDHHoanTatResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SoPDHHuy">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q70="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q70:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SoPDHHuyResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SoPDHHuyResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinNDEmail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinNDEmailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q71="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayThongTinNDEmailResult" nillable="true" type="q71:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinND">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TenDN" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayThongTinNDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q72="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayThongTinNDResult" nillable="true" type="q72:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListNguoiDung">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ListNguoiDungResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q73="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ListNguoiDungResult" nillable="true" type="q73:ArrayOfBizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteND">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q74="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q74:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteNDResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertND">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q75="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q75:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertNDResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditND">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q76="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q76:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditNDResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KTraDN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q77="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q77:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KTraDNResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KTraDNResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KTraTonTai">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q78="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q78:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KTraTonTaiResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KTraTonTaiResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditMKND">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q79="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q79:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="EditMKNDResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KtraEmail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KtraEmailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KtraEmailResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KtraEmailND">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TenDN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KtraEmailNDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KtraEmailNDResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KtraMatkhau">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TenDN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MatKhau" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KtraMatkhauResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="KtraMatkhauResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHCD">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHCDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q80="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListPDHCDResult" nillable="true" type="q80:ArrayOfBizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHDD">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHDDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q81="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListPDHDDResult" nillable="true" type="q81:ArrayOfBizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHDH">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHDHResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q82="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListPDHDHResult" nillable="true" type="q82:ArrayOfBizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHTT">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHTTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q83="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListPDHTTResult" nillable="true" type="q83:ArrayOfBizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHND">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q84="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q84:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHNDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q85="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListPDHNDResult" nillable="true" type="q85:ArrayOfBizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayPDH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MaPDH" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayPDHResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q86="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayPDHResult" nillable="true" type="q86:BizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHNDHT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q87="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q87:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHNDHTResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q88="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListPDHNDHTResult" nillable="true" type="q88:ArrayOfBizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHNDDH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q89="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="nd" nillable="true" type="q89:BizNguoiDung" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPDHNDDHResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q90="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListPDHNDDHResult" nillable="true" type="q90:ArrayOfBizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPDH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q91="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="pdh" nillable="true" type="q91:BizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPDHResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPDHTT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q92="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="pdh" nillable="true" type="q92:BizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPDHTTResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatTinhTrangPDH">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q93="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="pdh" nillable="true" type="q93:BizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatTinhTrangPDHResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TinhTongTienPhieuDatHang">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q94="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="pdh" nillable="true" type="q94:BizPhieuDatHang" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TinhTongTienPhieuDatHangResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="TinhTongTienPhieuDatHangResult" type="xs:decimal" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPN">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPNResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q95="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListPNResult" nillable="true" type="q95:ArrayOfBizPhieuNhap" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPN">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q96="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LPN" nillable="true" type="q96:ArrayOfBizPhieuNhap" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPNResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KtraTonTaiSP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q97="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="CT" nillable="true" type="q97:BizCTPhieuNhap" />
+        <xs:element xmlns:q98="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="ListCT" nillable="true" type="q98:ArrayOfBizCTPhieuNhap" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="KtraTonTaiSPResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q99="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="KtraTonTaiSPResult" nillable="true" type="q99:BizCTPhieuNhap" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPVC">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LayListPVCResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q100="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="LayListPVCResult" nillable="true" type="q100:ArrayOfBizPhieuVanChuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPVC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q101="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PVC" nillable="true" type="q101:BizPhieuVanChuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ThemPVCResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatTinhTrangPVCDG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q102="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PVC" nillable="true" type="q102:BizPhieuVanChuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatTinhTrangPVCDGResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatTinhTrangPVCKG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q103="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PVC" nillable="true" type="q103:BizPhieuVanChuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatTinhTrangPVCKGResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatTinhTrangPVCTC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q104="http://schemas.datacontract.org/2004/07/Book_Library.BLL" minOccurs="0" name="PVC" nillable="true" type="q104:BizPhieuVanChuyen" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CapNhatTinhTrangPVCTCResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
