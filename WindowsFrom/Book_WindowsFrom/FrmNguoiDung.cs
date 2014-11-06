@@ -69,7 +69,7 @@ namespace Book_WindowsFrom
             hienthi.MdiParent = FrmMain.ActiveForm;
             hienthi.Show();
           
-            this.Close();
+           // this.Close();
         }
         
         private void gridND_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
@@ -88,6 +88,8 @@ namespace Book_WindowsFrom
             }
         }
 
+
+       
 
         public static Book_Services.BizNhanVien NhanVien { get; set; }
     }

@@ -23,6 +23,7 @@ namespace Book_WindowsFrom
         public FrmMain()
         {
             InitializeComponent();
+           
             sv = new Book_Services.Book_ServiceClient();
             sv.CapNhatKhuyenMai();
             FrmHienThi hienthi = new FrmHienThi();

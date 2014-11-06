@@ -31,6 +31,8 @@ namespace Book_Library.DAL
                                     }).ToList<BizNhanVien>();
             return nv;
         }
+      
+
         public static void insert(BizNhanVien nv)
         {
             db = new DbWSDataContext();
@@ -105,5 +107,24 @@ namespace Book_Library.DAL
                     MaNV = ""
                 };
         }
+
+        public static void insert1(BizNhanVien nv)
+        {
+            db = new DbWSDataContext();
+            NhanVien nhanvien1 = new NhanVien();
+            nhanvien1.MaNV = nv.MaNV;
+            nhanvien1.MaQuyen = nv.Quyen.MaQuyen;
+            nhanvien1.MatKhau = nv.MatKhau;
+            nhanvien1.TenNV = nv.TenNV;
+            nhanvien1.DiaChi = nv.DiaChi;
+            nhanvien1.Email = nv.Email;
+            nhanvien1.SDT = nv.SDT;
+            nhanvien1.NgaySinh = nv.NgaySinh;
+            nhanvien1.Trangthai = true;
+            db.NhanViens.InsertOnSubmit(nhanvien1);
+            db.SubmitChanges();
+        }
+
+        
     }
 }

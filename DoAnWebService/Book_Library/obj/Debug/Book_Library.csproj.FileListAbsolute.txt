@@ -22,3 +22,19 @@ E:\du an\DoAnWS\DoAnWebService\Book_Library\bin\Debug\EntityFramework.xml
 E:\du an\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.csprojResolveAssemblyReference.cache
 E:\du an\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.dll
 E:\du an\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll.config
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\Book_Library\bin\Debug\EntityFramework.dll
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\Book_Library\bin\Debug\EntityFramework.xml
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.csprojResolveAssemblyReference.cache
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.dll
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.pdb
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll.config
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.dll
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\Book_Library\bin\Debug\Book_Library.pdb
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\Book_Library\bin\Debug\EntityFramework.dll
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\Book_Library\bin\Debug\EntityFramework.xml
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.csprojResolveAssemblyReference.cache
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.dll
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\Book_Library\obj\Debug\Book_Library.pdb

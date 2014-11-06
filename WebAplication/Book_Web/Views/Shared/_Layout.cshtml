@@ -14,36 +14,8 @@
  
 <body>
 <!--  Free CSS Templates from www.templatemo.com -->
-<div id="templatemo_container">
-	<div id="templatemo_menu">
-    	<ul>
-            <li>@Html.ActionLink("Trang chủ","Index","Home")</li>
-            <li>@Html.ActionLink("Sản phẩm","Index","Product")</li> 
-            <li>@Html.ActionLink("Tìm kiếm nâng cao","SearchAdvanced","Product")</li>
-            
-            <li>@Html.ActionLink("Liên hệ","Contact","Home")</li> 
-               @if (!Request.IsAuthenticated)
-               {
-         
-            <li>@Html.ActionLink("Đăng ký", "Signup", "Account")</li> 
-               }
-            <li style="float:right; margin-top:-5px;">@using(Html.BeginForm("Search","Product",new {id ="keyword"},FormMethod.Post,null))
-                                    {
-                                        <input style=" color:Black; background:#DCDCDC; border-radius: 7px;" list="tudong" id="keyword" name="keyword" value="" /><button class="btn">Tìm</button>
-                                        }</li>
- 
-            @{  Book_Web.Book_Services.Book_ServiceClient sv = new Book_Web.Book_Services.Book_ServiceClient();
-                List<Book_Web.Book_Services.BizSach> ListSach = sv.LayListSach();
-             <Datalist id="tudong">
-             @foreach(Book_Web.Book_Services.BizSach item in ListSach)
-             {
-                <option>@item.Tensach</option>
-             }
-            </Datalist>
-            }
-    	</ul>
-    </div> <!-- end of menu -->
-    
+ <!-- end of menu -->
+    <div id="templatemo_container">
     <div id="templatemo_header">
     
        @* <div id="templatemo_special_offers">
@@ -65,6 +37,33 @@
 
     </div> <!-- end of header -->
     
+	<div id="templatemo_menu">
+    	<ul>
+            <li>@Html.ActionLink("Trang chủ","Index","Home")</li>
+            <li>@Html.ActionLink("Sản phẩm","Index","Product")</li> 
+            <li>@Html.ActionLink("Tìm kiếm nâng cao","SearchAdvanced","Product")</li>
+            <!--<li>@Html.ActionLink("Liên hệ","Contact","Home")</li>-->
+               @if (!Request.IsAuthenticated)
+               {
+         
+            <li>@Html.ActionLink("Đăng ký", "Signup", "Account")</li> 
+               }
+            <li style="float:right; margin-top:-5px;">@using(Html.BeginForm("Search","Product",new {id ="keyword"},FormMethod.Post,null))
+                                    {
+                                        <input style=" color:Black; background:#DCDCDC; border-radius: 7px;" list="tudong" id="keyword" name="keyword" value="" /><button class="btn">Tìm</button>
+                                        }</li>
+ 
+            @{  Book_Web.Book_Services.Book_ServiceClient sv = new Book_Web.Book_Services.Book_ServiceClient();
+                List<Book_Web.Book_Services.BizSach> ListSach = sv.LayListSach();
+             <Datalist id="tudong">
+             @foreach(Book_Web.Book_Services.BizSach item in ListSach)
+             {
+                <option>@item.Tensach</option>
+             }
+            </Datalist>
+            }
+    	</ul>
+    </div>
     <div id="templatemo_content">
     	
         <div id="templatemo_content_left">
@@ -108,8 +107,8 @@
     
     <div id="templatemo_footer">
     
-	       <a href="subpage.html">Trang chủ</a> | <a href="subpage.html">Sản Phẩm</a> | <a href="subpage.html">Liên Hệ</a><br />
-        Copyright © 2012 <a href="#"><strong> BookStore</strong></a> | Người thiết kế <a href="http://www.templatemo.com" target="_parent" title="free css templates">Grass</a>	</div> 
+	       @Html.ActionLink("Trang chủ","Index","Home") | @Html.ActionLink("Sản phẩm","Index","Product") | @Html.ActionLink("Tìm kiếm nâng cao","SearchAdvanced","Product")<br />
+        Copyright © 2014 <a href="#"><strong> BookStore</strong></a> | Người thiết kế <a href="http://www.templatemo.com" target="_parent" title="free css templates">Nhóm 5 - SGU</a>	</div> 
     <!-- end of footer -->
 <!--  Free CSS Template www.templatemo.com -->
 </div> <!-- end of container -->

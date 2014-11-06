@@ -34,22 +34,6 @@ namespace Book_WindowsFrom
 
 
         }
-        private void BtnKichHoat_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                sv = new Book_Services.Book_ServiceClient();
-                List<Book_Services.BizNguoiDung> List = sv.ListNguoiDung();
-                Book_Services.BizKhuyenMai KM = sv.LayKhuyenMai();
-                sv.GuiMail_TBKhuyenMai(List, KM);
-                MessageBox.Show("Gửi mail cho các người dùng thành công!", "thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch
-            {
-                XtraMessageBox.Show("Lỗi chương trình !!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
-            }
-            
-        }
+       
     }
 }

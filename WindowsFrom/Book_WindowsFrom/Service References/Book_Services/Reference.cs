@@ -2289,5 +2289,10 @@ namespace Book_WindowsFrom.Book_Services {
         public bool KtraEmailND(string TenDN, string Email) {
             return base.Channel.KtraEmailND(TenDN, Email);
         }
+
+        internal void insertNV1(BizNhanVien nv)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

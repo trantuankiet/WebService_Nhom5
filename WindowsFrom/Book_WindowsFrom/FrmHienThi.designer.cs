@@ -34,22 +34,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl6 = new DevExpress.XtraEditors.PanelControl();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
-            this.panelKm = new DevExpress.XtraEditors.PanelControl();
-            this.BtnKichHoat = new DevExpress.XtraEditors.SimpleButton();
-            this.label2 = new System.Windows.Forms.Label();
-            this.labelKM = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.panelKm = new DevExpress.XtraEditors.PanelControl();
+            this.labelKM = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).BeginInit();
@@ -62,9 +58,9 @@
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelKm)).BeginInit();
             this.panelKm.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -112,8 +108,6 @@
             this.panelControl6.Controls.Add(this.labelControl9);
             this.panelControl6.Controls.Add(this.labelControl8);
             this.panelControl6.Controls.Add(this.labelControl7);
-            this.panelControl6.Controls.Add(this.labelControl6);
-            this.panelControl6.Controls.Add(this.labelControl5);
             this.panelControl6.Controls.Add(this.labelControl4);
             this.panelControl6.Controls.Add(this.labelControl3);
             this.panelControl6.Controls.Add(this.labelControl2);
@@ -122,6 +116,60 @@
             this.panelControl6.Name = "panelControl6";
             this.panelControl6.Size = new System.Drawing.Size(645, 153);
             this.panelControl6.TabIndex = 0;
+            // 
+            // labelControl9
+            // 
+            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.labelControl9.Location = new System.Drawing.Point(331, 38);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(117, 18);
+            this.labelControl9.TabIndex = 8;
+            this.labelControl9.Text = "Trương Hoàng Ẩn";
+            // 
+            // labelControl8
+            // 
+            this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.labelControl8.Location = new System.Drawing.Point(331, 84);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(99, 18);
+            this.labelControl8.TabIndex = 7;
+            this.labelControl8.Text = "Trần Tuấn Kiệt";
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.labelControl7.Location = new System.Drawing.Point(331, 61);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(137, 18);
+            this.labelControl7.TabIndex = 6;
+            this.labelControl7.Text = "Nguyễn Thiện Khánh";
+            // 
+            // labelControl4
+            // 
+            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.labelControl4.Location = new System.Drawing.Point(144, 61);
+            this.labelControl4.Name = "labelControl4";
+            this.labelControl4.Size = new System.Drawing.Size(80, 18);
+            this.labelControl4.TabIndex = 3;
+            this.labelControl4.Text = "3110410059";
+            // 
+            // labelControl3
+            // 
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.labelControl3.Location = new System.Drawing.Point(144, 84);
+            this.labelControl3.Name = "labelControl3";
+            this.labelControl3.Size = new System.Drawing.Size(80, 18);
+            this.labelControl3.TabIndex = 2;
+            this.labelControl3.Text = "3110410066";
+            // 
+            // labelControl2
+            // 
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
+            this.labelControl2.Location = new System.Drawing.Point(144, 38);
+            this.labelControl2.Name = "labelControl2";
+            this.labelControl2.Size = new System.Drawing.Size(80, 18);
+            this.labelControl2.TabIndex = 1;
+            this.labelControl2.Text = "3110410007";
             // 
             // labelControl1
             // 
@@ -152,46 +200,6 @@
             this.panelControl4.Size = new System.Drawing.Size(645, 421);
             this.panelControl4.TabIndex = 0;
             // 
-            // panelKm
-            // 
-            this.panelKm.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelKm.Controls.Add(this.BtnKichHoat);
-            this.panelKm.Controls.Add(this.label2);
-            this.panelKm.Controls.Add(this.labelKM);
-            this.panelKm.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelKm.Location = new System.Drawing.Point(0, 312);
-            this.panelKm.Name = "panelKm";
-            this.panelKm.Size = new System.Drawing.Size(645, 109);
-            this.panelKm.TabIndex = 1;
-            // 
-            // BtnKichHoat
-            // 
-            this.BtnKichHoat.Location = new System.Drawing.Point(332, 77);
-            this.BtnKichHoat.Name = "BtnKichHoat";
-            this.BtnKichHoat.Size = new System.Drawing.Size(121, 23);
-            this.BtnKichHoat.TabIndex = 2;
-            this.BtnKichHoat.Text = "Kích hoạt gửi mail";
-            this.BtnKichHoat.Click += new System.EventHandler(this.BtnKichHoat_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.label2.Location = new System.Drawing.Point(83, 45);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(403, 17);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Hãy nhấn kích hoạt để gửi mai thông báo cho tất cả người dùng";
-            // 
-            // labelKM
-            // 
-            this.labelKM.AutoSize = true;
-            this.labelKM.Font = new System.Drawing.Font("Tahoma", 10F);
-            this.labelKM.Location = new System.Drawing.Point(83, 12);
-            this.labelKM.Name = "labelKM";
-            this.labelKM.Size = new System.Drawing.Size(0, 17);
-            this.labelKM.TabIndex = 0;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -204,77 +212,24 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // labelControl2
+            // panelKm
             // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelControl2.Location = new System.Drawing.Point(144, 38);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(80, 18);
-            this.labelControl2.TabIndex = 1;
-            this.labelControl2.Text = "3109410155";
+            this.panelKm.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.panelKm.Controls.Add(this.labelKM);
+            this.panelKm.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelKm.Location = new System.Drawing.Point(0, 312);
+            this.panelKm.Name = "panelKm";
+            this.panelKm.Size = new System.Drawing.Size(645, 109);
+            this.panelKm.TabIndex = 1;
             // 
-            // labelControl3
+            // labelKM
             // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelControl3.Location = new System.Drawing.Point(144, 84);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(80, 18);
-            this.labelControl3.TabIndex = 2;
-            this.labelControl3.Text = "3109410170";
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelControl4.Location = new System.Drawing.Point(144, 61);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(80, 18);
-            this.labelControl4.TabIndex = 3;
-            this.labelControl4.Text = "3109410166";
-            // 
-            // labelControl5
-            // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelControl5.Location = new System.Drawing.Point(144, 107);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(80, 18);
-            this.labelControl5.TabIndex = 4;
-            this.labelControl5.Text = "3109410174";
-            // 
-            // labelControl6
-            // 
-            this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelControl6.Location = new System.Drawing.Point(331, 107);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(90, 18);
-            this.labelControl6.TabIndex = 5;
-            this.labelControl6.Text = "Âu Vĩnh Thiện";
-            // 
-            // labelControl7
-            // 
-            this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelControl7.Location = new System.Drawing.Point(331, 61);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(125, 18);
-            this.labelControl7.TabIndex = 6;
-            this.labelControl7.Text = "Hồ Võ Công Thành";
-            // 
-            // labelControl8
-            // 
-            this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelControl8.Location = new System.Drawing.Point(331, 84);
-            this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(148, 18);
-            this.labelControl8.TabIndex = 7;
-            this.labelControl8.Text = "Phạm Thị Thanh Thảo";
-            // 
-            // labelControl9
-            // 
-            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.labelControl9.Location = new System.Drawing.Point(331, 38);
-            this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(107, 18);
-            this.labelControl9.TabIndex = 8;
-            this.labelControl9.Text = "Nguyễn Hữu Tài";
+            this.labelKM.AutoSize = true;
+            this.labelKM.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.labelKM.Location = new System.Drawing.Point(83, 12);
+            this.labelKM.Name = "labelKM";
+            this.labelKM.Size = new System.Drawing.Size(0, 17);
+            this.labelKM.TabIndex = 0;
             // 
             // FrmHienThi
             // 
@@ -302,10 +257,10 @@
             this.panelControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelKm)).EndInit();
             this.panelKm.ResumeLayout(false);
             this.panelKm.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -322,15 +277,11 @@
         private DevExpress.XtraEditors.PanelControl panelControl4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private DevExpress.XtraEditors.PanelControl panelKm;
-        private DevExpress.XtraEditors.SimpleButton BtnKichHoat;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelKM;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl9;
         private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraEditors.LabelControl labelControl7;
-        private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.LabelControl labelControl5;
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl3;
     }

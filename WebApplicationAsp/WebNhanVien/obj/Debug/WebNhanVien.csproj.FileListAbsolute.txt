@@ -12,3 +12,10 @@ E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.csprojResolv
 E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.dll.licenses
 E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.dll
 E:\du an\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WebApplicationAsp\WebNhanVien\bin\WebNhanVien.dll
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WebApplicationAsp\WebNhanVien\bin\WebNhanVien.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WebApplicationAsp\WebNhanVien\bin\AjaxControlToolkit.dll
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.csprojResolveAssemblyReference.cache
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.dll.licenses
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.dll
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WebApplicationAsp\WebNhanVien\obj\Debug\WebNhanVien.pdb

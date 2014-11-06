@@ -98,8 +98,9 @@ namespace Book_Library.BLL
 
                 return true;
             }
-            catch (Exception)
+            catch (Exception )
             {
+
                 return false;
             }
 
@@ -152,7 +153,7 @@ namespace Book_Library.BLL
                        + "<P></P>"
                        + "</html>";
 
-            MailMessage mail = new MailMessage("tfourbook@gmail.com", to, Subject, str);
+            MailMessage mail = new MailMessage("bookshop4t@gmail.com", to, Subject, str);
             mail.IsBodyHtml = true;
             try
             {
@@ -162,7 +163,7 @@ namespace Book_Library.BLL
                 client.Host = "smtp.gmail.com";
                 client.Port = 587;
                 // setup Smtp authentication
-                NetworkCredential credentials = new NetworkCredential("tfourbook@gmail.com", "0938613461");
+                NetworkCredential credentials = new NetworkCredential("bookshop4t@gmail.com", "bookshop4t123");
                 client.UseDefaultCredentials = false;
                 client.Credentials = credentials;
 

@@ -226,6 +226,7 @@ namespace WcfService_Book
         {
             return BizNhanVien.getList().Single(t => t.MaNV == MaNV);
         }
+       
 
         public bool KiemTraMatKhau(string MaNV, string MatKhau)
         {
@@ -246,6 +247,10 @@ namespace WcfService_Book
         public void DeleteNV(BizNhanVien nv)
         {
             BizNhanVien.Delete(nv);
+        }
+        public void InsertNV1(BizNhanVien nv)
+        {
+            BizNhanVien.Insert1(nv);
         }
         public void InsertNV(BizNhanVien nv)
         {

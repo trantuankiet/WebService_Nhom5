@@ -135,6 +135,10 @@ namespace WcfService_Book
         List<BizNhanVien> ListNhanVienVC();
         [OperationContract]
         void DeleteNV(BizNhanVien nv);
+
+        [OperationContract]
+        void InsertNV1(BizNhanVien nv);
+
         [OperationContract]
         void InsertNV(BizNhanVien nv);
         [OperationContract]

@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService_Book", "WcfServi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book_Library", "Book_Library\Book_Library.csproj", "{55528C2D-75A5-4B96-B459-EA7D51DC4B1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book_WindowsFrom", "..\WindowsFrom\Book_WindowsFrom\Book_WindowsFrom.csproj", "{D4FF42C9-C943-4F29-9537-6E6692AEC6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Book_Web", "..\WebAplication\Book_Web\Book_Web.csproj", "{1D09DCC8-8207-4B48-B7ED-CC517495F5D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{55528C2D-75A5-4B96-B459-EA7D51DC4B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55528C2D-75A5-4B96-B459-EA7D51DC4B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55528C2D-75A5-4B96-B459-EA7D51DC4B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4FF42C9-C943-4F29-9537-6E6692AEC6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4FF42C9-C943-4F29-9537-6E6692AEC6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4FF42C9-C943-4F29-9537-6E6692AEC6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4FF42C9-C943-4F29-9537-6E6692AEC6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D09DCC8-8207-4B48-B7ED-CC517495F5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D09DCC8-8207-4B48-B7ED-CC517495F5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D09DCC8-8207-4B48-B7ED-CC517495F5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D09DCC8-8207-4B48-B7ED-CC517495F5D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

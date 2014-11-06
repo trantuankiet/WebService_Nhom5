@@ -74,6 +74,7 @@ namespace Book_WindowsFrom
                 nv.DiaChi = TxtDiaChi.Text;
                 nv.NgaySinh = DateTimeNgaySinh.Value;
                 nv.SDT = TxtSDT.Text;
+               // sv.insertNV1(nv);
                 sv.InsertNV(nv);
                 nv.MatKhau = luulai;
                 sv.GuiMail_DangKyNV(nv);

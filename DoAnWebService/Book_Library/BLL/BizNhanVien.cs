@@ -96,5 +96,10 @@ namespace Book_Library.BLL
         {
             return DalNhanVien.KTraDN(nv);
         }
+
+        public static void Insert1(BizNhanVien nv)
+        {
+            DalNhanVien.insert1(nv);
+        }
     }
 }

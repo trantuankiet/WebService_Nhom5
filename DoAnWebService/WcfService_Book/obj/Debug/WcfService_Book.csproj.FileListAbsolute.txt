@@ -19,3 +19,17 @@ E:\du an\DoAnWS\DoAnWebService\WcfService_Book\bin\Book_Library.pdb
 E:\du an\DoAnWS\DoAnWebService\WcfService_Book\obj\Debug\WcfService_Book.csprojResolveAssemblyReference.cache
 E:\du an\DoAnWS\DoAnWebService\WcfService_Book\obj\Debug\WcfService_Book.dll
 E:\du an\DoAnWS\DoAnWebService\WcfService_Book\obj\Debug\WcfService_Book.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\WcfService_Book\bin\WcfService_Book.dll
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\WcfService_Book\bin\WcfService_Book.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\WcfService_Book\bin\Book_Library.dll
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\WcfService_Book\bin\Book_Library.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\WcfService_Book\obj\Debug\WcfService_Book.csprojResolveAssemblyReference.cache
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\WcfService_Book\obj\Debug\WcfService_Book.dll
+E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\DoAnWebService\WcfService_Book\obj\Debug\WcfService_Book.pdb
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\WcfService_Book\bin\WcfService_Book.dll
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\WcfService_Book\bin\WcfService_Book.pdb
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\WcfService_Book\bin\Book_Library.dll
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\WcfService_Book\bin\Book_Library.pdb
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\WcfService_Book\obj\Debug\WcfService_Book.csprojResolveAssemblyReference.cache
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\WcfService_Book\obj\Debug\WcfService_Book.dll
+C:\Users\khanhnguyen\Desktop\DoAnWS\DoAnWebService\WcfService_Book\obj\Debug\WcfService_Book.pdb
