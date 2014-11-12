@@ -9,7 +9,7 @@ body {
 	font-family: Verdana, Arial, san-serif;
 	font-size: 11px;
 	color: #ffffff;
-	background: #4b4743;
+	background: yellow;
 }
 
 a:link, a:visited { color: #e6e154; text-decoration: none; font-weight: bold;} 
@@ -32,12 +32,17 @@ img {
 }
 .btn
 {
-    background:#033830;
+    background:yellow;
      margin-right:10px;
       padding: 3px 7px 3px 7px;
-       color:#FFF;
+       color:#414042;
         border:1px solid #7C5824;
         font-size:11px;
+}
+.btn:hover
+{
+       color:white;
+       background:#c1b400;
 }
 .cleaner {
 	clear: both;
@@ -67,12 +72,15 @@ img {
 	width: 100px;
 	padding: 4px 0 5px 0;
 	margin-bottom: 10px; 
-	background: url(../images/templatemo_btn_02.jpg) no-repeat;
-	color: #FFFFFF;
+	background: yellow;
+	color: #414042;
 	font-weight: bold;
 	text-decoration: none;
 }
-
+.buy_now_button a:hover{
+	color:white;
+       background:#c1b400;
+}
 .detail_button a{
 	clear: both;
 	text-align: center;
@@ -80,8 +88,8 @@ img {
 	width: 100px;
 	padding: 4px 0 5px 0;
 	margin-bottom: 10px; 
-	background: url(../images/templatemo_btn_01.jpg) no-repeat;
-	color: #ffffff;
+	background: #414042;
+	color: yellow;
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -90,7 +98,7 @@ img {
 	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
-	background: #1c1c1b url(../images/templatemo_bg.jpg) repeat-y;
+	background: #1c1c1b;
 }
 
 
@@ -100,7 +108,7 @@ img {
 	clear: both;
 	width: 960px;
 	height: 45px;
-	background: url(../images/templatemo_menu_bg.jpg) no-repeat;
+	background: #414042;
 }
 
 #templatemo_menu ul {
@@ -120,11 +128,11 @@ img {
 	font-weight: bold;
 	text-align: center;
 	text-decoration: none;
-	color: #969547;
+	color: yellow;
 }
 
 #templatemo_menu li a:hover, #templatemo_menu li .current{
-	color: #fcf88e;
+	color: white;
 }
 
 /* end of menu*/
@@ -133,7 +141,7 @@ img {
 #templatemo_header {
 	clear: both;
 	width: 960px;
-	height: 285px;
+	height: 250px;
 	padding: 0;
 	margin: 0;
     background: url(../images/templatemo_header_bg_blank.jpg) no-repeat;
@@ -187,21 +195,22 @@ img {
 /* content */
 #templatemo_content {
 	clear: both;
-	width: 920px;
-	padding: 0 20px;
+	width: 960px;
+	padding: 0 0px;
 }
 
 #templatemo_content #templatemo_content_left {
 	float: left;
-	width: 188px;
+	width: 230px;
 	padding: 10px;
-	background-color: #171716;
-	border: 1px solid #212120;
+	background-color: #414042;
+    height:1008px;
+    margin-top:5px;
 }
 
 #templatemo_content #templatemo_content_right {
 	float: right;
-	width: 670px;
+	width: 700px;
 }
 
 
@@ -214,10 +223,13 @@ img {
 
 .templatemo_content_left_section h1 {
 	font-size: 14px;
-	color: #cbc750;
-	padding: 0 0 5px 0;
+	color: #414042;
+	padding: 0px;
 	margin: 0 0 10px 0;
-	border-bottom: 1px dotted #cbc750;
+    background-color:yellow;
+    height:20px;
+    line-height:20px;
+    text-align:center;
 }
 
 .templatemo_content_left_section ul {
@@ -233,11 +245,11 @@ img {
 .templatemo_content_left_section ul li a{
 	font-weight: normal;
 	text-decoration: none;
-	color: #969547;
+	color: yellow;
 }
 
 .templatemo_content_left_section li a:hover, .templatemo_content_left_section li .current{
-	color: #fcf88e;
+	color: white;
 }
 
 
@@ -250,14 +262,15 @@ img {
 	height: 285px;
 	padding: 10px;
 	border: 1px solid #333;
+    margin:10px;
 }
 
 #templatemo_content_right h1 {
 	padding: 10px;
 	margin: 0 0 20px 0;
 	font-size: 15px;
-	color: #cbc750;
-	background: url(../images/templatemo_h1_bg.jpg);
+	color: yellow;
+	background: #414042;
 }
 
 #templatemo_content_right h2 {
@@ -318,17 +331,19 @@ img {
 /* footer */
 #templatemo_footer {
 	clear: both;
-	width: 960px;
 	padding: 20px 0px 20px 0;
 	text-align: center;
-	border-top: 1px solid #25211e;
 	color: #999;
-	background-color: #111110;
+	background-color:#414042;
 }
 
 #templatemo_footer a{
 	color: #fff;
 	font-weight: normal;
+    text-decoration:none;
+}
+#templatemo_footer a:hover{
+	color: yellow;
 }
 
 input[type="text"], 
@@ -555,15 +570,15 @@ a.link-page
 
 .pagination span.current
 {
-    background:#b88528;
-	background:-moz-linear-gradient(top,#b88528 0%,#9c7122 100%);
-	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#b88528),color-stop(100%,#9c7122));
-	background:-webkit-linear-gradient(top,#b88528 0%,#9c7122 100%);
-	background:-o-linear-gradient(top,#b88528 0%,#9c7122 100%);
-	background:-ms-linear-gradient(top,#b88528 0%,#9c7122 100%);
-	background:linear-gradient(top,#b88528 0%,#9c7122 100%);
-	border				: 1px solid #9c7122;
-	color				: #333333;
+    background:#404142;
+	background:-moz-linear-gradient(top,#404142 0%,#9c7122 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#404142),color-stop(100%,#404142));
+	background:-webkit-linear-gradient(top,#404142 0%,#404142 100%);
+	background:-o-linear-gradient(top,#404142 0%,#404142 100%);
+	background:-ms-linear-gradient(top,#404142 0%,#404142 100%);
+	background:linear-gradient(top,#404142 0%,#404142 100%);
+	border				: 1px solid yellow;
+	color				: yellow;
 	font-weight			: bold;
 	margin				: 2px;
 	padding				: 4px 6px;
@@ -572,16 +587,16 @@ a.link-page
 
 .pagination a, .pagination a:link, .pagination a:active, .pagination a:visited
 {
-    background:#b88528;
-	background:-moz-linear-gradient(top,#b88528 0%,#9c7122 100%);
-	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#b88528),color-stop(100%,#9c7122));
-	background:-webkit-linear-gradient(top,#b88528 0%,#9c7122 100%);
-	background:-o-linear-gradient(top,#b88528 0%,#9c7122 100%);
-	background:-ms-linear-gradient(top,#b88528 0%,#9c7122 100%);
-	background:linear-gradient(top,#b88528 0%,#9c7122 100%);
-	border				: 1px solid #9c7122;
+    background:#404142;
+	background:-moz-linear-gradient(top,#404142 0%,#404142 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#404142),color-stop(100%,#404142));
+	background:-webkit-linear-gradient(top,#404142 0%,#404142 100%);
+	background:-o-linear-gradient(top,#404142 0%,#404142 100%);
+	background:-ms-linear-gradient(top,#404142 0%,#404142 100%);
+	background:linear-gradient(top,#404142 0%,#404142 100%);
+	border				: 1px solid #404142;
 	font-weight			: bold;
-	color               : #FFFFFF;
+	color               : white;
 	margin				: 2px;
 	padding				: 4px 6px;
 	text-decoration		: none;
@@ -590,8 +605,8 @@ a.link-page
 
 .pagination a:hover, .pagination a:focus
 {
-	background-color	: #b88528;
-	border				: 1px solid #9c7122;
+	background-color	: #404142;
+	border				: 1px solid yellow;
 	color				: #FFFFFF;
 	text-decoration     : none;
 }

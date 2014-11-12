@@ -3,11 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title> Book Store </title>
+<title> Cửa Hàng Sách SGU</title>
 
 <meta name="keywords" content="Book Store " />
 <meta name="description" content="Book Store " />
-<link  rel="shortcut icon"  href="@Url.Content("~/Content/images/book-icon.png")"  type="image/x-icon"  />
+<link  rel="shortcut icon"  href="@Url.Content("~/Content/images/book-icon.ico")"  type="image/x-icon"  />
 <link href="~/Content/css/templatemo_style.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -50,7 +50,7 @@
                }
             <li style="float:right; margin-top:-5px;">@using(Html.BeginForm("Search","Product",new {id ="keyword"},FormMethod.Post,null))
                                     {
-                                        <input style=" color:Black; background:#DCDCDC; border-radius: 7px;" list="tudong" id="keyword" name="keyword" value="" /><button class="btn">Tìm</button>
+                                        <input style=" color:yellow; background:#6d6e71; border-radius: 5px; border:0px; height:20px; margin-right:5px;" list="tudong" id="keyword" name="keyword" value="" /><button class="btn">Tìm</button>
                                         }</li>
  
             @{  Book_Web.Book_Services.Book_ServiceClient sv = new Book_Web.Book_Services.Book_ServiceClient();

@@ -10,18 +10,9 @@
     $("#trangchu").attr("class", "current");
 
 </script>
-<h2>Danh Sách Sản Phẩm Mới Nhất</h2>
+<center><h1 style="padding-top:10px; color: #414042; background-color:yellow; width:500px; margin-top : 5px;">Danh Sách Sản Phẩm Mới Nhất</h1></center>
 
 
-     @if ((string)ViewBag.Pagelink != "")
-    {
-         <div class="paging">
-
-        @Html.Raw((String)ViewBag.Pagelink)
-             
-          </div>
-         <div class="cleaner">&nbsp;</div>
-    }
 <div class="row">
 @foreach (var item in Model) {
     	<div class="templatemo_product_box">
