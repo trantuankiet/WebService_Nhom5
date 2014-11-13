@@ -1,6 +1,6 @@
 ﻿DỊCH VỤ WEB VÀ ỨNG DỤNG
 1.GIỚI THIỆU
-
+	Website bán sách trực tuyến, sử dụng winform để quản lý và kết nối Web service.
 2.KIẾN TRÚC
 	2.1.WCFService
 	2.2.Web ASP.NET
