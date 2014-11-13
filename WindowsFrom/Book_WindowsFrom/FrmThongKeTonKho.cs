@@ -48,23 +48,7 @@ namespace Book_WindowsFrom
             }
         }
 
-        private void btnIn_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                ReportTonKho.NgayThongKe = dateTimePickerTonKho.Value;
-                ReportTonKho report = new ReportTonKho();
-                report.ShowPreview();
-                XtraMessageBox.Show("Bạn đã in báo cáo thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch
-            {
-                XtraMessageBox.Show("Lỗi chương trình !!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                gridThongKeKho.DataSource = null;
-
-            }
-            
-        }
+       
 
 
        

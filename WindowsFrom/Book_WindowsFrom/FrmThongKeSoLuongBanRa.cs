@@ -40,49 +40,7 @@ namespace Book_WindowsFrom
             CboDanhMuc.DisplayMember = "TenDM";
             CboDanhMuc.ValueMember = "MaTL";
         }
-         private void BtnInBaoCao_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                    if (DateTimeNBD.Value <= DateTimeNKT.Value)
-                    {
-                        sv = new Book_Services.Book_ServiceClient();
-                        List<Book_Services.BizSach> ListTK = sv.ThongKeSoLuongBanRa((Book_Services.BizTheLoai)CboDanhMuc.SelectedItem, DateTimeNBD.Value, DateTimeNKT.Value);
-                        if (ListTK.Count > 0)
-                        {
-                            ReportTongSoLuongBanRa.NgayBatDau = DateTimeNBD.Value;
-                            ReportTongSoLuongBanRa.NgayKetThuc = DateTimeNKT.Value;
-                            ReportTongSoLuongBanRa.ListSach = ListTK;
-                            ReportTongSoLuongBanRa baocaosoluong = new ReportTongSoLuongBanRa();
-                            baocaosoluong.ShowPreview();
-                            XtraMessageBox.Show("Báo Cáo Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                        else
-                        {
-                            XtraMessageBox.Show("Không Có Danh Sách Cần Báo Cáo", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            gridDanhSachSoLuong.DataSource = null;
-            
-                        }
-
-                    }
-                    else
-                    {
-                        XtraMessageBox.Show("Ngày Bắt Đầu Phải Nhỏ Hơn Ngày Kết Thúc", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        gridDanhSachSoLuong.DataSource = null;
-            
-                    }
-             
-                
-                }
-            catch
-            {
-                XtraMessageBox.Show("Chương Trình Bị Lỗi", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                gridDanhSachSoLuong.DataSource = null;
-            
-      
-            }
-
-        }
+         
 
         private void FrmBaoCaoSoLuong_Load(object sender, EventArgs e)
         {

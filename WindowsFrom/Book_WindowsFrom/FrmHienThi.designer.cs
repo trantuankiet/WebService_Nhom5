@@ -43,9 +43,9 @@
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelKm = new DevExpress.XtraEditors.PanelControl();
             this.labelKM = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).BeginInit();
@@ -58,9 +58,9 @@
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelKm)).BeginInit();
             this.panelKm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelControl1
@@ -176,9 +176,9 @@
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold);
             this.labelControl1.Location = new System.Drawing.Point(15, 13);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(236, 19);
+            this.labelControl1.Size = new System.Drawing.Size(166, 19);
             this.labelControl1.TabIndex = 0;
-            this.labelControl1.Text = "Người Thực Hiện Phần Mềm :";
+            this.labelControl1.Text = "Sinh viên thực hiện :";
             // 
             // panelControl3
             // 
@@ -200,18 +200,6 @@
             this.panelControl4.Size = new System.Drawing.Size(645, 421);
             this.panelControl4.TabIndex = 0;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::Book_WindowsFrom.Properties.Resources.Address_Book;
-            this.pictureBox1.InitialImage = global::Book_WindowsFrom.Properties.Resources.Address_Book;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(645, 312);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // panelKm
             // 
             this.panelKm.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
@@ -230,6 +218,18 @@
             this.labelKM.Name = "labelKM";
             this.labelKM.Size = new System.Drawing.Size(0, 17);
             this.labelKM.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Book_WindowsFrom.Properties.Resources.red_book_green_background;
+            this.pictureBox1.InitialImage = global::Book_WindowsFrom.Properties.Resources.Address_Book;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(645, 312);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // FrmHienThi
             // 
@@ -257,10 +257,10 @@
             this.panelControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelKm)).EndInit();
             this.panelKm.ResumeLayout(false);
             this.panelKm.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

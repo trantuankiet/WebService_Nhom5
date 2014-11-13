@@ -44,7 +44,6 @@
             this.cboSach = new System.Windows.Forms.ComboBox();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.btnThoat = new DevExpress.XtraEditors.SimpleButton();
-            this.btnIn = new DevExpress.XtraEditors.SimpleButton();
             this.btnThongKe = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl5 = new DevExpress.XtraEditors.PanelControl();
@@ -198,7 +197,6 @@
             // panelControl2
             // 
             this.panelControl2.Controls.Add(this.btnThoat);
-            this.panelControl2.Controls.Add(this.btnIn);
             this.panelControl2.Controls.Add(this.btnThongKe);
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelControl2.Location = new System.Drawing.Point(461, 21);
@@ -208,25 +206,16 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(61, 153);
+            this.btnThoat.Location = new System.Drawing.Point(61, 118);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 23);
             this.btnThoat.TabIndex = 7;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // btnIn
-            // 
-            this.btnIn.Location = new System.Drawing.Point(61, 95);
-            this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(75, 23);
-            this.btnIn.TabIndex = 6;
-            this.btnIn.Text = "In";
-            this.btnIn.Click += new System.EventHandler(this.btnIn_Click);
-            // 
             // btnThongKe
             // 
-            this.btnThongKe.Location = new System.Drawing.Point(61, 31);
+            this.btnThongKe.Location = new System.Drawing.Point(61, 63);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Size = new System.Drawing.Size(75, 23);
             this.btnThongKe.TabIndex = 5;
@@ -314,7 +303,6 @@
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraEditors.SimpleButton btnThoat;
-        private DevExpress.XtraEditors.SimpleButton btnIn;
         private DevExpress.XtraEditors.SimpleButton btnThongKe;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.LabelControl lbTenSP;

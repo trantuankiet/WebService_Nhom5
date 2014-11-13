@@ -49,7 +49,6 @@
             this.lbNgayTu = new DevExpress.XtraEditors.LabelControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.btnThoat = new DevExpress.XtraEditors.SimpleButton();
-            this.btnIn = new DevExpress.XtraEditors.SimpleButton();
             this.btnBaoCao = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl5 = new DevExpress.XtraEditors.PanelControl();
@@ -254,7 +253,6 @@
             // panelControl2
             // 
             this.panelControl2.Controls.Add(this.btnThoat);
-            this.panelControl2.Controls.Add(this.btnIn);
             this.panelControl2.Controls.Add(this.btnBaoCao);
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelControl2.Location = new System.Drawing.Point(460, 21);
@@ -264,25 +262,16 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(61, 153);
+            this.btnThoat.Location = new System.Drawing.Point(61, 123);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 23);
             this.btnThoat.TabIndex = 7;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
-            // btnIn
-            // 
-            this.btnIn.Location = new System.Drawing.Point(61, 95);
-            this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(75, 23);
-            this.btnIn.TabIndex = 6;
-            this.btnIn.Text = "Báo Cáo";
-            this.btnIn.Click += new System.EventHandler(this.btnIn_Click);
-            // 
             // btnBaoCao
             // 
-            this.btnBaoCao.Location = new System.Drawing.Point(61, 31);
+            this.btnBaoCao.Location = new System.Drawing.Point(61, 72);
             this.btnBaoCao.Name = "btnBaoCao";
             this.btnBaoCao.Size = new System.Drawing.Size(75, 23);
             this.btnBaoCao.TabIndex = 5;
@@ -372,7 +361,6 @@
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.PanelControl panelControl2;
         private DevExpress.XtraEditors.SimpleButton btnThoat;
-        private DevExpress.XtraEditors.SimpleButton btnIn;
         private DevExpress.XtraEditors.SimpleButton btnBaoCao;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private System.Windows.Forms.DateTimePicker dateTimePickerTu;

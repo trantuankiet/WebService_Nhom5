@@ -34,7 +34,6 @@
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl6 = new DevExpress.XtraEditors.PanelControl();
             this.BtnThoat = new DevExpress.XtraEditors.SimpleButton();
-            this.BtnInBaoCao = new DevExpress.XtraEditors.SimpleButton();
             this.BtnThongKe = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.Group = new DevExpress.XtraEditors.GroupControl();
@@ -116,34 +115,24 @@
             this.panelControl6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelControl6.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.panelControl6.Controls.Add(this.BtnThoat);
-            this.panelControl6.Controls.Add(this.BtnInBaoCao);
             this.panelControl6.Controls.Add(this.BtnThongKe);
-            this.panelControl6.Location = new System.Drawing.Point(328, 9);
+            this.panelControl6.Location = new System.Drawing.Point(244, 9);
             this.panelControl6.Name = "panelControl6";
             this.panelControl6.Size = new System.Drawing.Size(303, 37);
             this.panelControl6.TabIndex = 2;
             // 
             // BtnThoat
             // 
-            this.BtnThoat.Location = new System.Drawing.Point(208, 7);
+            this.BtnThoat.Location = new System.Drawing.Point(156, 7);
             this.BtnThoat.Name = "BtnThoat";
             this.BtnThoat.Size = new System.Drawing.Size(75, 23);
             this.BtnThoat.TabIndex = 1;
             this.BtnThoat.Text = "Thoát";
             this.BtnThoat.Click += new System.EventHandler(this.BtnThoat_Click);
             // 
-            // BtnInBaoCao
-            // 
-            this.BtnInBaoCao.Location = new System.Drawing.Point(110, 7);
-            this.BtnInBaoCao.Name = "BtnInBaoCao";
-            this.BtnInBaoCao.Size = new System.Drawing.Size(75, 23);
-            this.BtnInBaoCao.TabIndex = 0;
-            this.BtnInBaoCao.Text = "In Báo Cáo";
-            this.BtnInBaoCao.Click += new System.EventHandler(this.BtnInBaoCao_Click);
-            // 
             // BtnThongKe
             // 
-            this.BtnThongKe.Location = new System.Drawing.Point(12, 7);
+            this.BtnThongKe.Location = new System.Drawing.Point(42, 7);
             this.BtnThongKe.Name = "BtnThongKe";
             this.BtnThongKe.Size = new System.Drawing.Size(75, 23);
             this.BtnThongKe.TabIndex = 0;
@@ -362,7 +351,6 @@
         private DevExpress.XtraEditors.GroupControl Group;
         private DevExpress.XtraEditors.PanelControl panelControl5;
         private DevExpress.XtraEditors.SimpleButton BtnThoat;
-        private DevExpress.XtraEditors.SimpleButton BtnInBaoCao;
         private DevExpress.XtraEditors.PanelControl panelControl6;
         private DevExpress.XtraEditors.PanelControl panelControl8;
         private DevExpress.XtraGrid.GridControl gridDanhSachSoLuong;

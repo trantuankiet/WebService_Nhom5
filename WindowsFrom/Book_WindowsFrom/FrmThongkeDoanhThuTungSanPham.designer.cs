@@ -38,7 +38,6 @@
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.BtnInBaoCao = new DevExpress.XtraEditors.SimpleButton();
             this.BtnThoat = new DevExpress.XtraEditors.SimpleButton();
             this.BtnThongKe = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
@@ -161,7 +160,6 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.BtnInBaoCao);
             this.panelControl1.Controls.Add(this.BtnThoat);
             this.panelControl1.Controls.Add(this.BtnThongKe);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -170,18 +168,9 @@
             this.panelControl1.Size = new System.Drawing.Size(314, 87);
             this.panelControl1.TabIndex = 0;
             // 
-            // BtnInBaoCao
-            // 
-            this.BtnInBaoCao.Location = new System.Drawing.Point(117, 29);
-            this.BtnInBaoCao.Name = "BtnInBaoCao";
-            this.BtnInBaoCao.Size = new System.Drawing.Size(75, 23);
-            this.BtnInBaoCao.TabIndex = 2;
-            this.BtnInBaoCao.Text = "In Báo Cáo";
-            this.BtnInBaoCao.Click += new System.EventHandler(this.BtnInBaoCao_Click);
-            // 
             // BtnThoat
             // 
-            this.BtnThoat.Location = new System.Drawing.Point(215, 29);
+            this.BtnThoat.Location = new System.Drawing.Point(175, 29);
             this.BtnThoat.Name = "BtnThoat";
             this.BtnThoat.Size = new System.Drawing.Size(75, 23);
             this.BtnThoat.TabIndex = 1;
@@ -190,7 +179,7 @@
             // 
             // BtnThongKe
             // 
-            this.BtnThongKe.Location = new System.Drawing.Point(27, 29);
+            this.BtnThongKe.Location = new System.Drawing.Point(53, 29);
             this.BtnThongKe.Name = "BtnThongKe";
             this.BtnThongKe.Size = new System.Drawing.Size(75, 23);
             this.BtnThongKe.TabIndex = 0;
@@ -370,7 +359,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.SimpleButton BtnInBaoCao;
         private DevExpress.XtraEditors.SimpleButton BtnThoat;
         private DevExpress.XtraEditors.SimpleButton BtnThongKe;
         private DevExpress.XtraEditors.GroupControl groupControl2;

@@ -60,47 +60,7 @@ namespace Book_WindowsFrom
             }
         }
 
-        private void BtnInBaoCao_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (DateTimeNBD.Value < DateTimeNKT.Value)
-                {
-                    sv = new Book_Services.Book_ServiceClient();
-                    decimal TongTienVC = sv.ThongKeTienVanChuyen(DateTimeNBD.Value, DateTimeNKT.Value);
-                    decimal TongTienSanPham = sv.ThongKeTongDoanhThuSanPham(DateTimeNBD.Value, DateTimeNKT.Value);
-                    decimal TongTienDoanhThu = TongTienVC + TongTienSanPham;
-                    ReportDoanhThu.ListDoanhThu = sv.ThongKeDoanhThuTungSanPham(DateTimeNBD.Value, DateTimeNKT.Value);
-                    ReportDoanhThu.NgayBatDau = DateTimeNBD.Value;
-                    ReportDoanhThu.NgayKetThuc = DateTimeNKT.Value;
-                    ReportDoanhThu.TongDoanhThu = TongTienDoanhThu;
-                    ReportDoanhThu.TongVC = TongTienVC;
-                    ReportDoanhThu baocao = new ReportDoanhThu();
-                    baocao.ShowPreview();
-                    XtraMessageBox.Show("Bạn đã in báo cáo thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        
-                }
-                else
-                {
-                    XtraMessageBox.Show("Ngày Bắt Đầu Phải Nhỏ Hơn Ngày Kết Thúc", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                    GridDanhSachDoanhThu.DataSource = null;
-                    LbTongVC.Text = null;
-                    LbTongdoanhthusp.Text = null;
-                    LbTongTienDoanhThu.Text = null;
-
-                }
-            }
-            catch
-            {
-                XtraMessageBox.Show("Lỗi chương trình !!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        
-                GridDanhSachDoanhThu.DataSource = null;
-                LbTongVC.Text = null;
-                LbTongTienDoanhThu.Text = null;
-            }
-
-        }
+       
 
         private void BtnThoat_Click(object sender, EventArgs e)
         {

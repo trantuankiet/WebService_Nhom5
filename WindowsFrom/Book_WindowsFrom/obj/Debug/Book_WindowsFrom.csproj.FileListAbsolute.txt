@@ -123,37 +123,32 @@ E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book
 E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTonKho.resources
 E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csproj.GenerateResource.Cache
 E:\Tjeu tu thuj\HOC TAP\hki11\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe.licenses
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe.config
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.pdb
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.pdb
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csprojResolveAssemblyReference.cache
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDangNhap.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmLapPhieuDatHang.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmTheLoai.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTheoSoLuong.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeSoLuongBanRa.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDuyetPhieuVanChuyen.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmHienThi.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmKhuyenMai.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmLapPhieuVanChuyen.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmMain.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNguoiDung.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNhanVien.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmPhieuNhapKho.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDuyetPhieuDatHang.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmQuyen.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmSach.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongkeDoanhThuTungSanPham.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTonKho.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.Properties.Resources.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportDoanhThu.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTheoSoLuong.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTongSoLuongBanRa.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.ReportTonKho.resources
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csproj.GenerateResource.Cache
-C:\Users\khanhnguyen\Desktop\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe.licenses
-D:\Finish up\Web Service\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe.config
-D:\Finish up\Web Service\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe
-D:\Finish up\Web Service\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe.config
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.pdb
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDangNhap.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmLapPhieuDatHang.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmTheLoai.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTheoSoLuong.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeSoLuongBanRa.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDuyetPhieuVanChuyen.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmHienThi.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmKhuyenMai.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmLapPhieuVanChuyen.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmMain.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNguoiDung.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmNhanVien.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmPhieuNhapKho.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmDuyetPhieuDatHang.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmQuyen.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmSach.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongkeDoanhThuTungSanPham.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.FrmThongKeTonKho.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.Properties.Resources.resources
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.csproj.GenerateResource.Cache
+E:\Tjeu tu thuj\HOC TAP\hki11\Service\Nhom5 DoAnWS\DoAnWS\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe.licenses
+D:\Learning\Saigon University\Dich vu web & Ung dung\New folder\WindowsFrom\Book_WindowsFrom\bin\Debug\Book_WindowsFrom.exe.config
+D:\Learning\Saigon University\Dich vu web & Ung dung\New folder\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.exe
+D:\Learning\Saigon University\Dich vu web & Ung dung\New folder\WindowsFrom\Book_WindowsFrom\obj\Debug\Book_WindowsFrom.pdb
